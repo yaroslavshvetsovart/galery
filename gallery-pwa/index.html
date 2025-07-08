@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shvetsov Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icons/icon-192.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h1>Shvetsov Gallery</h1>
+    </header>
+    <main class="gallery">
+        <img src="images/painting1.jpg" alt="Картина 1">
+        <img src="images/painting2.jpg" alt="Картина 2">
+        <img src="images/painting3.jpg" alt="Картина 3">
+        <img src="images/painting4.jpg" alt="Картина 4">
+    </main>
+    <footer>
+        <p>© 2025 Yaroslav Shvetsov</p>
+    </footer>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js')
+        }
+    </script>
+</body>
+</html>
