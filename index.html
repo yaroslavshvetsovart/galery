@@ -1,80 +1,33 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Галерея</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      color: #111;
-    }
-
-    header {
-      background: #fff;
-      padding: 20px 40px;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    nav a {
-      margin-left: 20px;
-      text-decoration: none;
-      color: #444;
-    }
-
-    h1 {
-      font-size: 24px;
-    }
-
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-      padding: 40px;
-    }
-
-    .gallery img {
-      width: 100%;
-      height: auto;
-      border-radius: 4px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      background: #fff;
-      color: #888;
-      border-top: 1px solid #eee;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
   <header>
-    <h1>Галерея</h1>
+    <div class="logo">Галерея</div>
     <nav>
       <a href="#">Главная</a>
       <a href="#">Контакты</a>
     </nav>
   </header>
 
-  <main class="gallery">
-    <img src="https://placehold.co/600x400?text=Картина+1" alt="Картина 1" />
-    <img src="https://placehold.co/600x400?text=Картина+2" alt="Картина 2" />
-    <img src="https://placehold.co/600x400?text=Картина+3" alt="Картина 3" />
-    <img src="https://placehold.co/600x400?text=Картина+4" alt="Картина 4" />
+  <main>
+    <section class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Картина+1" alt="Картина 1">
+      <img src="https://via.placeholder.com/300x200?text=Картина+2" alt="Картина 2">
+      <img src="https://via.placeholder.com/300x200?text=Картина+3" alt="Картина 3">
+      <img src="https://via.placeholder.com/300x200?text=Картина+4" alt="Картина 4">
+    </section>
   </main>
 
   <footer>
     &copy; 2025 Галерея. Все права защищены.
   </footer>
+
 </body>
 </html>
